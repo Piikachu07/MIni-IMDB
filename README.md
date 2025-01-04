@@ -22,23 +22,3 @@ App development is carried out using the Streamlit library, which provides an in
 2. Content-Based Recommendations: The application suggests a set of movie recommendations based on the content similarity of the searched movie. Leveraging Latent Semantic Analysis (LSA) and k-nearest neighbours (KNN), it identifies similar movies and presents them alongside their posters. This feature helps users discover new movies based on their interests and preferences.
 3. Review Analysis: The application performs web scraping using Selenium to extract user reviews of the searched movie from the IMDB website. It collects review details such as the author, review date, rating, review title, and review text. The reviews are then subjected to sentiment analysis using the TextBlob library and the NLTK SentimentIntensityAnalyzer. This feature provides insights into the sentiment polarity (positive, negative, or neutral) and subjectivity (subjective or objective) of the movie reviews.
 4. User-Friendly Interface: The app is built using the Streamlit library, which offers a user-friendly interface for seamless interaction. Users can easily search for movies, explore detailed information, view recommendations, and analyze reviews. The interface is designed to be intuitive and accessible to users of all levels of technical proficiency.
-
-## Installation and Usage
-1. Create a folder and open the terminal/command prompt in that directory
-```
-git clone https://github.com/roshancharlie/Mini-Imdb-Application.git
-```
-2.  Navigate to the project directory
-```
-cd path/folder/Mini-Imdb-Application
-```
-3. Install the required dependencies
-```
-pip install -r requirements.txt
-```
-4. Run the application
-```
-streamlit run app.py
-```
-## Acknowledgements
-The Miniature IMDB Application utilizes the IMDB API, Streamlit, Selenium, TextBlob, NLTK, and other open-source libraries. We would like to express our gratitude to the developers of these libraries for their valuable contributions. If you encounter any issues or have any suggestions, please open an issue on the GitHub repository.
